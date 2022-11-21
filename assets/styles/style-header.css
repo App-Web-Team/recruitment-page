@@ -43,3 +43,9 @@
     padding-bottom: 50px;
     border-bottom: 3px solid var(--primary-color);
 }
+
+
+
+.hide-jd {
+    display: none;
+}
