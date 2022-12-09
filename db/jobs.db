@@ -1,0 +1,16 @@
+CREATE TABLE jobs (
+    id int NOT NULL AUTO_INCREMENT,
+    jobRole varchar(255),
+    jobId varchar(255),
+    jobDesc text,
+    PRIMARY KEY (id)
+);
+
+INSERT INTO jobs (jobRole, jobId, jobDesc)
+VALUES ('graphic designer', 'JPW22D-GD-1001', 'We are looking for a rock star Graphics Designer/Motion graphics for our team in Bangalore GlowRoad(a unit of Amazon), India, who will work on different Cross-channel/Cross-site marketing projects, all aimed at supporting marketing campaigns and offering clients compelling and engaging visual experiences. The candidate should be a learning expert who is creative, analytical and able to coordinate a small team of graphic designers working on the same project.');
+
+INSERT INTO jobs (jobRole, jobId, jobDesc)
+VALUES ('web developer', 'JPW22I-WD-1001', 'We are looking for a rock star Graphics Designer/Motion graphics for our team in Bangalore GlowRoad(a unit of Amazon), India, who will work on different Cross-channel/Cross-site marketing projects, all aimed at supporting marketing campaigns and offering clients compelling and engaging visual experiences. The candidate should be a learning expert who is creative, analytical and able to coordinate a small team of graphic designers working on the same project.');
+
+INSERT INTO jobs (jobRole, jobId, jobDesc)
+VALUES ('marketing executive', 'JPW22D-GD-1001', 'We are looking for a rock star Graphics Designer/Motion graphics for our team in Bangalore GlowRoad(a unit of Amazon), India, who will work on different Cross-channel/Cross-site marketing projects, all aimed at supporting marketing campaigns and offering clients compelling and engaging visual experiences. The candidate should be a learning expert who is creative, analytical and able to coordinate a small team of graphic designers working on the same project.');
