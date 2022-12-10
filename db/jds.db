@@ -1,0 +1,8 @@
+CREATE TABLE jds (
+    jdId varchar(255),
+    jdRole varchar(255),
+    jdSummary text,
+    jdDesc text,
+    jdElig text,
+    PRIMARY KEY (jdId)
+);

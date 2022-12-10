@@ -4,17 +4,7 @@
 
 <div class="container header-container py-3">
     <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "career-apply";
-
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
+    include "db/connection.php";
 
     $sql = "SELECT * FROM jobs";
     $result = $conn->query($sql);
